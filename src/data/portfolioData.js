@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL;
+
 export const portfolioData = {
   designer: {
     firstName: "SALMAN",
@@ -11,9 +13,9 @@ export const portfolioData = {
     experienceYears: "9+ years of experience",
     email: "xalmanfarisp@gmail.com",
     location: "Kerala, India & Remote Worldwide",
-    cutoutImage: "/salman-cutout-bw.png",
-    cutoutColorImage: "/salman-cutout.png",
-    avatarImage: "/salman-avatar.jpg",
+    cutoutImage: `${BASE}salman-cutout-bw.png`,
+    cutoutColorImage: `${BASE}salman-cutout.png`,
+    avatarImage: `${BASE}salman-avatar.jpg`,
     socials: [
       { name: "Dribbble", url: "https://dribbble.com", icon: "🏀", key: "dribbble" },
       { name: "Instagram", url: "https://instagram.com/xalmanfaris", icon: "📸", key: "instagram" },
@@ -87,7 +89,7 @@ export const portfolioData = {
       category: "Real Project",
       badge: "REAL PROJECT",
       tags: ["Landing Page", "Kumpin Studio"],
-      thumbnail: "/bloomcare-thumb.jpg",
+      thumbnail: `${BASE}bloomcare-thumb.jpg`,
       description: "The all-in-one mental wellness platform featuring AI-guided meditation, habit tracking, and sleep optimization.",
       metrics: {
         metric1: "+180% Sign-up Conversion",
@@ -103,7 +105,7 @@ export const portfolioData = {
       category: "Real Project",
       badge: "REAL PROJECT",
       tags: ["Landing Page", "Kumpin Studio"],
-      thumbnail: "/fragwater-thumb.jpg",
+      thumbnail: `${BASE}fragwater-thumb.jpg`,
       description: "A timeless e-commerce experience for an artisanal perfume house crafted with sensory luxury and editorial whitespace.",
       metrics: {
         metric1: "+44% Average Order Value",

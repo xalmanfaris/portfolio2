@@ -9,7 +9,7 @@ export default function Hero({ openContactModal, setActivePage, navigateToWorks 
         <div className="hero-canvas-exact">
           {/* Exact Hero Visual Asset from Reference Screenshot */}
           <img 
-            src="/madison-hero-body.png" 
+            src={`${import.meta.env.BASE_URL}madison-hero-body.png`} 
             alt="Hey, there — I AM MADISON, DIGITAL PRODUCT DESIGNER" 
             className="hero-reference-img"
           />
